@@ -3,6 +3,3 @@ _site
 .jekyll-metadata
 node_modules/
 yarn-error.log
-assets/js/
-assets/css/
-_data/mix-manifest.json
