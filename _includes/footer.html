@@ -1,0 +1,51 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-footer--logo">
+      {% include logos/yorspace.svg %}
+    </div>
+    {% if site.data.config.footer %}
+      <div class="site-footer--company">
+       {{ site.data.config.footer | markdownify }}
+      </div>
+    {% endif %}
+    {% if site.data.config.social %}
+      <div class="site-footer--social">
+        <h2 class="footer-header">Social</h2>
+        {% include social.html %}
+      </div>
+    {% endif %}
+    <div class="site-footer--links">
+      <h2 class="footer-header">Site links</h2>
+      {% assign default_paths = site.pages | map: "path" %}
+      {% assign page_paths = site.data.navigation.footer_pages | default: '  ' %}
+      {% if page_paths %}
+        {% for path in page_paths %}
+          {% assign my_page = site.pages | where: "path", path | first %}
+          {% if my_page.title %}
+            <a class="page-link" href="{{ my_page.url | relative_url | replace: 'index.html' '' }}">{{ my_page.title | escape }}</a>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+</footer>
+
+<footer class="secondary-footer">
+  <div class="container">
+    <div class="footer-logo">
+      <img src="/assets/images/supporters/power-to-change.png" />
+    </div>
+    <div class="footer-logo">
+      <img src="/assets/images/supporters/unltd-w.png" />
+    </div>
+    <div class="footer-logo">
+      <img src="/assets/images/supporters/CLT-w.png" />
+    </div>
+    <div class="footer-logo">
+      <img src="/assets/images/supporters/locality.png" />
+    </div>
+    <div class="footer-logo">
+      <img src="/assets/images/supporters/lch-condensed.png" />
+    <div>
+  </div>
+</footer>

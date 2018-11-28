@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+  background-color: $base-font-color;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+body {
+  background-color: white;
+}
+
+.container {
+  max-width: $large-screen;
+  margin: 0 auto;
+  padding-left: $base-spacing;
+  padding-right: $base-spacing;
+}
+
+.container__narrow {
+  max-width: $medium-screen
+}
+
+
+.page-title, .post-title {
+  font-size: modular-scale(5);
+  margin-bottom: 0;
+}
+
+.page-subtitle {
+  margin-top: $small-spacing;
+  font-size: modular-scale(1);
+}

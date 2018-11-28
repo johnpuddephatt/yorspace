@@ -1,0 +1,3 @@
+baseurl: "/"
+local: true
+url: "localhost:3000"
