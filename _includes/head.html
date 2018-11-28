@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     {% seo title=false %}
     {% assign title = page.title %}
-    <title>{% if page.title != 'Index'%}{{page.title}} – {% endif %}{{site.data.config.title | strip_html}}</title>
+    <title>{% if page.title != 'Index'%}{{page.title}} – {% endif %}{{site.data.config.title | strip_html}}{% if page.title != 'Index'%}– {{site.data.config.description}}{% endif %}</title>
 
     <link rel="stylesheet" href="/assets{{ site.data.mix-manifest['/css/app.css'] }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
