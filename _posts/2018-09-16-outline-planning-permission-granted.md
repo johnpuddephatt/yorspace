@@ -1,7 +1,7 @@
 ---
 title: Outline Planning permission granted for Lowfield Green!
 image:
-  file: uploads/169734719.jpg
+  file: /uploads/169734719.jpg
   caption: YorSpace members standing outside the gates of the former Lowfields School, Acomb – October 2016
   show_on_post: true
 tags: news

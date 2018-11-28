@@ -1,7 +1,7 @@
 ---
 title: Power To Change Community Shares Booster Programme grant award!
 image:
-  file: uploads/map.jpg
+  file: /uploads/map.jpg
   caption:
   show_on_post: false
 caption:
