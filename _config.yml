@@ -60,6 +60,7 @@ show_dir_listing: false
 permalink:     date
 paginate_path: /page:num
 timezone:      null
+cloudinary: letsdance
 
 quiet:    false
 verbose:  true
