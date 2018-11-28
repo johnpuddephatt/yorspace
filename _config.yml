@@ -52,8 +52,8 @@ incremental: false
 # Serving
 detach:  false
 port:    4000
-url: "https://johnpuddephatt.github.io"
-baseurl: "/yorspace/" # does not include hostname
+url: "https://yorspace.letsdance.agency"
+baseurl: "/" # does not include hostname
 show_dir_listing: false
 
 # Outputting
