@@ -23,7 +23,7 @@ picture {
 
 svg {
   * {
-    stroke-width: .8 * $base-border-width; // reduced slightly to counter antialiasing fuzz
+    stroke-width: .85 * $base-border-width; // reduced slightly to counter antialiasing fuzz
     vector-effect: non-scaling-stroke;
   }
 }

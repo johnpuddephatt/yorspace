@@ -1,8 +1,7 @@
 .site-footer {
   border-top: $base-border;
-  padding: $base-spacing 0 2 * $base-spacing;
-  background-color: $dark-blue;
-  color: white;
+  padding: 1.5 * $base-spacing 0 2 * $base-spacing;
+  background-color: $turquoise;
   .container {
     display: flex;
     flex-direction: column;
@@ -58,6 +57,8 @@
 
   p {
     margin-bottom: 0;
+    color: transparentize($base-font-color,.15);
+    font-size: modular-scale(-1);
   }
 }
 
@@ -70,7 +71,7 @@
     }
   }
   svg path {
-    fill: white
+    fill: transparentize($base-font-color,.15);
   }
 }
 
@@ -78,19 +79,20 @@
   flex: 0 0 auto;
   a {
     display: block;
-    color: white;
-    line-height: 1.5 * $base-spacing;
+    font-size: modular-scale(-1);
+    color: transparentize($base-font-color,.15);
+    line-height: 1.25 * $base-spacing;
   }
 }
 
 
 .secondary-footer {
-  background-color: $dark-blue;
-  text-align: center;
+  background-color: $turquoise;
+  text-align: center;;
   .container {
     display: flex;
-    // padding-top: $base-spacing;
-    padding-bottom: $base-spacing;
+    // padding-top: $small-spacing;
+    padding-bottom: 3 * $base-spacing;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
@@ -98,6 +100,7 @@
   .footer-logo {
     + .footer-logo {
       margin-left: $small-spacing;
+      // opacity: .8;
       @media screen and (min-width: $medium-screen) {
         margin-left: $base-spacing;
       }

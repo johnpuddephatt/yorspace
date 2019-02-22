@@ -4,6 +4,6 @@
 //res.cloudinary.com/{{ site.cloudinary }}/image/fetch/w_{{ include.width | default: "500"}},h_{{ include.height | default: "500"}}{{ include.quality | default: 50 | prepend: ",q_"}}{{ include.modes| default: "c_fill,g_auto" | prepend: "," }}/{{ site.url }}{{ site.baseurl }}{{ include.img }}
 {% if include.pathonly != 'true' %}" width="{{ include.width | default: 500 }}" height="{{ include.height | default: 500}}" />{% endif %}
 {% else %}
-{% if include.pathonly != 'true' %}<img alt="" class="{{ include.class }}" src="{% endif %}{{ site.baseurl }}{{  include.img }}{% if include.pathonly != 'true' %} "/>{% endif %}
+{% if include.pathonly != 'true' %}<img alt="" class="{{ include.class }}" src="{% endif %}{{  include.img }}{% if include.pathonly != 'true' %} "/>{% endif %}
 {% endif %}
 {% endcapture %}{{ img_output | strip_newlines }}

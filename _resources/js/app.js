@@ -9,7 +9,7 @@
       <button aria-expanded="false">
         ${heading.textContent}
         <svg width="46" height="46" viewBox="0 0 46 46">
-          <path fill="#57E5E2" stroke="#0D1D48" stroke-width="4" stroke-miterlimit="10" d="M32.1 23.1v16.2l-14-8.1L4 23.1l14.1-8.2 14-8.1z"/>
+          <path fill="#83D6C1" stroke="#0D1D48" stroke-width="4" stroke-miterlimit="10" d="M32.1 23.1v16.2l-14-8.1L4 23.1l14.1-8.2 14-8.1z"/>
         </svg>
 
       </button>

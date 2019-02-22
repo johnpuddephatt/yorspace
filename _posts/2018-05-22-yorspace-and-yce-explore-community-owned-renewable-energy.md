@@ -1,5 +1,5 @@
 ---
-title: YorSpace & YCE exploring community owned renewable energy at Lowfield Green
+title: Exploring community owned renewable energy at Lowfield Green
 image:
   file: /uploads/DbY-FbLWAAAi7S1-1.jpg
   caption:

@@ -50,7 +50,12 @@
   }
 
   ol {
-    list-style-type: lower-alpha;
+    li {
+      list-style-type: lower-alpha;
+      li {
+        list-style-type: lower-roman;
+      }
+    }
   }
   .container > *:first-child {
     font-size: modular-scale(1);
