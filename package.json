@@ -11,15 +11,20 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.23.6",
+    "browser-sync": "^2.26.3",
     "browser-sync-webpack-plugin": "^2.2.2",
-    "fs-extra": "^5.0.0",
-    "laravel-mix": "^2.1.11",
-    "postcss": "^6.0.20",
-    "postcss-cssnext": "^3.1.0"
+    "fs-extra": "^7.0.1",
+    "laravel-mix": "^4.0.7",
+    "postcss": "^7.0.14",
+    "postcss-cssnext": "^3.1.0",
+    "resolve-url-loader": "2.3.1",
+    "sass-loader": "7.*",
+    "vue-template-compiler": "^2.6.9",
+    "webpack": "^4.29.6"
   },
   "dependencies": {
     "include-media": "^1.4.9",
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.11.0",
+    "sass": "^3.5.6"
   }
 }
