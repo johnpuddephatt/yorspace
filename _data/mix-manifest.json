@@ -1,13 +1,13 @@
 {
-    "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css",
-    "/js/es6.js": "/js/es6.js",
-    "/fonts/TideSans-300LilKahuna.woff": "/fonts/TideSans-300LilKahuna.woff",
-    "/fonts/TideSans-300LilKahuna.woff2": "/fonts/TideSans-300LilKahuna.woff2",
-    "/fonts/TideSans-500Dudette.woff": "/fonts/TideSans-500Dudette.woff",
-    "/fonts/TideSans-500Dudette.woff2": "/fonts/TideSans-500Dudette.woff2",
-    "/fonts/TideSans-600Bunny.woff": "/fonts/TideSans-600Bunny.woff",
-    "/fonts/TideSans-600Bunny.woff2": "/fonts/TideSans-600Bunny.woff2",
-    "/fonts/TideSans-800Kahuna.woff": "/fonts/TideSans-800Kahuna.woff",
-    "/fonts/TideSans-800Kahuna.woff2": "/fonts/TideSans-800Kahuna.woff2"
+    "/js/app.js": "/js/app.js?id=c8fe9013afc3d80af506",
+    "/css/app.css": "/css/app.css?id=fb912fc1932f24161873",
+    "/js/es6.js": "/js/es6.js?id=d41d8cd98f00b204e980",
+    "/fonts/TideSans-300LilKahuna.woff": "/fonts/TideSans-300LilKahuna.woff?id=f36d167d6e775a6b7a24",
+    "/fonts/TideSans-300LilKahuna.woff2": "/fonts/TideSans-300LilKahuna.woff2?id=fabde326b903094864ae",
+    "/fonts/TideSans-500Dudette.woff": "/fonts/TideSans-500Dudette.woff?id=e986cc9e34bbf7ff2487",
+    "/fonts/TideSans-500Dudette.woff2": "/fonts/TideSans-500Dudette.woff2?id=329bcd1bc3c69c79314a",
+    "/fonts/TideSans-600Bunny.woff": "/fonts/TideSans-600Bunny.woff?id=ccbcc2b7d928530787f5",
+    "/fonts/TideSans-600Bunny.woff2": "/fonts/TideSans-600Bunny.woff2?id=f69d7db87b25cc52beda",
+    "/fonts/TideSans-800Kahuna.woff": "/fonts/TideSans-800Kahuna.woff?id=4eee96f43ebfc387b268",
+    "/fonts/TideSans-800Kahuna.woff2": "/fonts/TideSans-800Kahuna.woff2?id=e01b971c31475e72768f"
 }
