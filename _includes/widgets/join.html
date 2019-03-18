@@ -144,6 +144,10 @@
         // alert('Transaction completed by ' + details.payer.name.given_name + '!');
         mailchimp();
       });
+    },
+
+    onError: ( error ) => {
+      console.log('error',error);
     }
 
 
