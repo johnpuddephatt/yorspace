@@ -159,11 +159,6 @@
 
   function mailchimp() {
 
-    // Check for spam
-    if (document.getElementById('js-validate-robot').value !== '') {
-      return false
-    }
-
     var form = document.forms[0];
     // Get url for mailchimp
     var url = form.action.replace('/post?', '/post-json?');
