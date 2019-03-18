@@ -3,10 +3,6 @@
   font-size: modular-scale(-2);
 }
 
-#residents  {
-  display: none;
-}
-
 #thankyou {
   display: none;
 }
@@ -18,4 +14,9 @@
 #continue {
   display: block;
   width: 100%;
+}
+
+
+.is-hidden {
+  display: none;
 }

@@ -2,47 +2,48 @@
 
   <div id="form">
 
-    <div>
+    <div class="field-group field-group__email">
       <label for="mce-EMAIL">Email Address<sup>*</sup></label>
       <input type="email" name="EMAIL" id="mce-EMAIL" value="" placeholder="Email" required>
     </div>
 
-    <div>
+    <div class="field-group field-group__fname">
       <label for="mce-FNAME">First Name<sup>*</sup></label>
       <input type="text" name="FNAME" id="mce-FNAME" value="" placeholder="First name" required>
     </div>
 
-    <div>
+    <div class="field-group field-group__lname">
       <label for="mce-LNAME">Last Name<sup>*</sup></label>
       <input type="text" name="LNAME" id="mce-LNAME" value="" placeholder="Last name" required>
     </div>
 
-    <div>
+    <div class="field-group field-group__phone">
       <label for="mce-phone">Phone number</label>
       <input name="PHONE" id="mce-phone" type="text">
     </div>
 
-    <div>
+    <div class="field-group field-group__address">
       <label for="mce-address">Address</label>
       <textarea name="ADDRESS" id="mce-address" type="number">  </textarea>
     </div>
 
-    <div>
+    <div class="field-group field-group__postcode">
       <label for="mce-postcode">Postcode<sup>*</sup></label>
       <input name="POSTCODE" id="mce-postcode" type="text" required>
     </div>
 
     <div>
-      <label for="mce-register">Join the resident register?</label>
-      <select name="REGISTER" id="mce-register">
-        <option value="No">No</option>
-        <option value="Yes">Yes</option>
-      </select>
+      <div class="field-group field-group__register">
+        <label for="mce-register">Join the resident register?</label>
+        <select name="REGISTER" id="mce-register">
+          <option value="No">No</option>
+          <option value="Yes">Yes</option>
+        </select>
+      </div>
 
-      <!--<input value="Yes" type="checkbox" name="REGISTER" id="mce-register">-->
-      <div class="padded-box" id="residents">
+      <div class="padded-box is-hidden" id="residents">
         <h3>Resident register questions</h3>
-        <div>
+        <div class="field-group field-group__home">
           <label for="mce-home">Type of home you’re interested in</label>
           <select name="HOME" id="mce-home">
             <option value="1 bed flat">1 bed flat</option>
@@ -51,15 +52,15 @@
             <option value="4 bed house">4 bed house</option>
           </select>
         </div>
-        <div>
+        <div class="field-group field-group__adults">
           <label for="mce-adults">Number of adults</label>
           <input name="ADULTS" id="mce-adults" type="text">
         </div>
-        <div>
+        <div class="field-group field-group__children">
           <label for="mce-children">Number of children</label>
           <input name="CHILDREN" id="mce-children" type="text">
         </div>
-        <div>
+        <div class="field-group field-group__need">
           <label for="mce-need">What best describes your housing need?</label>
           <select id="mce-need" name="NEED">
             <option value="No current housing need">No current housing need</option>
@@ -70,18 +71,22 @@
             <option value="Other (specify below)">Other (specify below)</option>
           </select>
         </div>
-        <div>
+        <div class="field-group field-group__need-other is-hidden">
+          <label for="mce-need-other">Describe your housing need</label>
+          <textarea name="NEED_OTHER" id="mce-need-other" type="text"></textarea>
+        </div>
+        <div class="field-group field-group__connection">
           <label for="mce-connection">What is your connection to York?</label>
           <select name="CONNECTION" id="mce-connection">
             <option value="I live in York">I live in York</option>
             <option value="I have previously lived in York">I have previously lived in York</option>
             <option value="I work in York">I work in York</option>
             <option value="I live and work in York">I live and work in York</option>
-            <option value="Other connection (please specify)">Other connection (please specify)</option>
+            <option value="Other (specify below)">Other (specify below)</option>
           </select>
         </div>
-        <div>
-          <label for="mce-connection-other">Describe your housing need</label>
+        <div class="field-group field-group__connection-other is-hidden">
+          <label for="mce-connection-other">Describe your connection to your York</label>
           <textarea name="CONN_OTHER" id="mce-connection-other" type="text"></textarea>
         </div>
       </div>
@@ -117,10 +122,32 @@
   var housingNeedQuestions = document.querySelector('#residents');
   housingNeedSelect.addEventListener('change', (e)=>{
     if(e.target.value == 'Yes') {
-      housingNeedQuestions.style.display = 'block';
+      housingNeedQuestions.classList.remove('is-hidden');
     }
     else {
-      housingNeedQuestions.style.display = 'none';
+      housingNeedQuestions.classList.add('is-hidden');
+    }
+  });
+
+  var needSelect = document.querySelector('#mce-need');
+  var needOtherGroup = document.querySelector('.field-group__need-other');
+  needSelect.addEventListener('change', (e)=>{
+    if(e.target.value == 'Other (specify below)') {
+      needOtherGroup.classList.remove('is-hidden');
+    }
+    else {
+      needOtherGroup.classList.add('is-hidden');
+    }
+  });
+
+  var connectionSelect = document.querySelector('#mce-connection');
+  var connectionOtherGroup = document.querySelector('.field-group__connection-other');
+  connectionSelect.addEventListener('change', (e)=>{
+    if(e.target.value == 'Other (specify below)') {
+      connectionOtherGroup.classList.remove('is-hidden');
+    }
+    else {
+      connectionOtherGroup.classList.add('is-hidden');
     }
   });
 
