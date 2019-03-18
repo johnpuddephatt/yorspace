@@ -19,6 +19,7 @@
     "postcss-cssnext": "^3.1.0"
   },
   "dependencies": {
-    "include-media": "^1.4.9"
+    "include-media": "^1.4.9",
+    "node-sass": "^4.11.0"
   }
 }

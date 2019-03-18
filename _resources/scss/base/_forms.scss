@@ -15,6 +15,9 @@ label {
   display: block;
   font-weight: 600;
   margin-bottom: $small-spacing / 2;
+  sup {
+    color: $orange;
+  }
 }
 
 input,
@@ -25,7 +28,8 @@ textarea {
   font-size: $base-font-size;
 }
 
-#{$all-text-inputs} {
+#{$all-text-inputs},
+select {
   appearance: none;
   background-color: $base-background-color;
   border: $base-border;
@@ -63,6 +67,12 @@ textarea {
 
 textarea {
   resize: vertical;
+}
+
+select {
+  appearance: menulist;
+  height: 2 * $base-spacing;
+  line-height: 2 * $base-spacing;
 }
 
 [type="checkbox"],

@@ -22,6 +22,10 @@
 
     path {
       fill: $base-font-color;
+      transition: fill 3 * $base-duration;
     }
+  }
+  &:hover svg path:first-child {
+    fill: $orange;
   }
 }

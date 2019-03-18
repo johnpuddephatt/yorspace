@@ -1,4 +1,5 @@
 header_pages:
+  - _pages/join.md
   - _pages/contact.md
 
 footer_pages:
