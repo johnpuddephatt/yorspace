@@ -1,5 +1,8 @@
 ---
 title: Who can invest in YorSpace?
+location:
+- home
+- invest
 ---
 Anyone who wants to be involved in creating community-led, not for profit housing in York can invest.
 

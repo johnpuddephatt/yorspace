@@ -51,8 +51,9 @@
 .site-footer--company {
   @media screen and (min-width: $medium-screen) {
     flex: 0 0 30em;
+    margin-right: auto;
   }
-  margin-right: auto;
+
   align-self: flex-end;
 
   p {
@@ -95,7 +96,10 @@
     padding-bottom: 3 * $base-spacing;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
+    @media screen and (min-width: $medium-screen) {
+      justify-content: flex-start;
+    }
   }
   .footer-logo {
     + .footer-logo {

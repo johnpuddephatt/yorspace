@@ -1,6 +1,6 @@
 (function() {
   // Get all the <h3> headings
-  const headings = document.querySelectorAll('.section--home-faqs h3')
+  const headings = document.querySelectorAll('.section--faqs h3')
 
   Array.prototype.forEach.call(headings, heading => {
     // Give each <h3> a toggle button child

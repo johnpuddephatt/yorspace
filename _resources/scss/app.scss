@@ -6,13 +6,17 @@
 @import 'modules/navigation';
 @import 'modules/footer';
 @import 'modules/social';
+@import 'modules/faqs';
 
 @import 'modules/home/hero';
 @import 'modules/home/plans';
 @import 'modules/home/image';
 @import 'modules/home/blog';
-@import 'modules/home/faqs';
 @import 'modules/home/about';
 
 @import 'modules/posts';
+@import 'modules/section';
 @import 'modules/join';
+
+@import 'modules/sections/invest';
+@import 'modules/sections/live';

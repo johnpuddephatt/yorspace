@@ -1,7 +1,9 @@
 <div class="container container__narrow container--faqs">
   <h2 class="section-heading">{{ include.title | default: 'FAQS' }}</h2>
   {% for faq in site.faqs %}
-    <h3>{{ faq.title | escape }}</h3>
-    {{ faq.content | markdownify }}
+    {% if faq.location contains include.location %}
+      <h3>{{ faq.title | escape }}</h3>
+      {{ faq.content | markdownify }}
+    {% endif%}
   {% endfor %}
 </div>

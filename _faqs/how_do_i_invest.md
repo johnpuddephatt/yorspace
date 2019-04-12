@@ -1,5 +1,8 @@
 ---
 title: How do I invest in YorSpace?
+location:
+- home
+- invest
 ---
 Full details about how to invest will be made available when the share offer goes live, which is expected to be early 2019.
 

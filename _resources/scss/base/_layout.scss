@@ -29,20 +29,21 @@ body {
   max-width: $medium-screen
 }
 
-.page-title, .post-title {
-  font-size: modular-scale(5);
-  margin-bottom: 0;
-}
-
-.page-subtitle {
-  margin-top: $small-spacing;
-  font-size: modular-scale(1);
-}
-
 .padded-box {
   background-color: $ultralight-blue;
   padding: $base-spacing;
   margin: $base-spacing 0;
   font-weight: 300;
   font-size: modular-scale(-1);
+}
+
+.sr-only {
+ position: absolute;
+ width: 1px;
+ height: 1px;
+ padding: 0;
+ margin: -1px;
+ overflow: hidden;
+ clip: rect(0,0,0,0);
+ border: 0;
 }
