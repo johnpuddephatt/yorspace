@@ -1,7 +1,6 @@
 ---
 title: Do you have any other sources of money?
 location:
-- home
 - invest
 ---
 Since January 2017, YorSpace have been successful in attracting over £110,000 worth of grant funding with further applications in hand.
