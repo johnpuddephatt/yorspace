@@ -16,7 +16,7 @@ Lowfield Green, the former Lowfields School site, is where YorSpace are looking 
 
 An Outline planning application for the whole site was submitted by City of York Council in 2017 and on the 16th August, the City of York Planning Committee approved plans for the wider City of York Council development, which included the Community self build plot prioritised for YorSpace to develop.
 
-![Testing](/uploads/170707-Lowfield_Masterplan_July_2017.jpg)
+![Lowfield Masterplan](/uploads/170707-Lowfield_Masterplan_July_2017.jpg)
 
 YorSpace have been in discussions with City of York Council since October 2016 about developing a portion of the site to create 19 homes in the South East corner – the area identified as “Community Build Plot” on the plan above.
 
