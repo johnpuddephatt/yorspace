@@ -1,3 +1,19 @@
+var simpleslider = require('simple-slider');
+
+var slider = document.querySelector('.slider');
+
+simpleslider.getSlider({
+  container: slider,
+  duration: 1.5,
+  delay: 7.5,
+  prop: 'opacity',
+  unit: '',
+  init: 0,
+  show: 1,
+  end: 0,
+});
+
+
 (function() {
   // Get all the <h3> headings
   const headings = document.querySelectorAll('.section--faqs h3')
