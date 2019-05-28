@@ -68,4 +68,13 @@
     fill: currentColor;
   }
 
+  ul {
+    list-style-type: square;
+    list-style-position: outside;
+    padding-left: 1em;
+  }
+  li {
+    margin-bottom: .5em;
+  }
+
 }
