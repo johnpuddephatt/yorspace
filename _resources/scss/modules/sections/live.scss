@@ -5,7 +5,7 @@
   margin-bottom: $base-spacing/2;
 }
 
-.section--about-rows {
+.section--about-rows .section-row:first-child {
   background-color: $turquoise;
   padding-top: 2 * $base-spacing;
   padding-bottom: 2 * $base-spacing;
