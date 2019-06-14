@@ -3,8 +3,6 @@ title: Do you have any other sources of money?
 location:
 - invest
 ---
-Since January 2017, YorSpace have been successful in attracting over £110,000 worth of grant funding with further applications in hand.
+Since January 2017, YorSpace have been successful in attracting over £240,000 worth of grant funding. This seed funding has financed predevelopment works and the Planning phase of Lowfield Green.
 
-This seed funding has financed the planning phase of Lowfield Green and further funding raised will cover consultant costs and fees up to work onsite. Residents of the homes at Lowfield Green will contribute a minimum of 10% deposit to buy into residency. These member deposits, along with the bridging finance raised through the community share offer will allow us to secure a development loan from a lender to buy the land and build the homes at Lowfield Green.
-
-We hope to secure £100,000 worth of match funding once standard mark accreditation is confirmed for our share offer.
+We have secured grant money to cover the 15% deposit to purchase the land and will secure £100,000 worth of match funding from Power To Change upon receiving standard mark accreditation for our share offer. The money raised from the share offer will be used to buy the land, cover fees and YorSpace’s development costs during the build phase.

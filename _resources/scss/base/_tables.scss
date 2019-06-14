@@ -4,18 +4,18 @@ table {
   border-top: $base-border;
   border-bottom: $base-border;
   border-color: $orange;
-  table-layout: fixed;
   width: 100%;
 }
 
 th {
   font-weight: 700;
-  padding: $small-spacing 0;
+  padding: $small-spacing $small-spacing/2;
   text-align: left;
 }
 
 td {
-  padding: $small-spacing/2 0;
+  padding: $small-spacing/2 $small-spacing/2;
+  white-space: nowrap;
 }
 
 tr,

@@ -4,9 +4,10 @@ description: |
 email: "info@yorspace.org"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.yorspace.org" # the base hostname & protocol for your site, e.g. http://example.com
-footer: "**YorSpace Ltd** is registered Community Benefit Society, registered number 7476"
+footer: "**YorSpace Ltd** is a registered Community Benefit Society, registered number 7476"
 social:
   - twitter: yorspace
   - facebook: YorSpace
+  - linkedin: yorspace-ltd
 date_format: "%d.%m.%y "
 mailchimp: https://yorspace.us16.list-manage.com/subscribe?u=87de39e1c0b0e9d7ec221831c&id=c3ded908a6

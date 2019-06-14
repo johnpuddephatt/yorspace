@@ -6,6 +6,9 @@
     {% if account.facebook %}
       <li><a title="Facebook" href="//facebook.com/{{ account.facebook}}" target="_blank">{% include logos/facebook.svg %}</a></li>
     {% endif %}
+    {% if account.linkedin %}
+      <li><a title="LinkedIn" href="//linkedin.com/company/{{ account.linkedin}}" target="_blank">{% include logos/linkedin.svg %}</a></li>
+    {% endif %}
     {% if account.instagram %}
       <li><a title="Instagram" href="//instagram.com/{{ account.instagram}}" target="_blank">{% include logos/instagram.svg %}</a></li>
     {% endif %}

@@ -5,7 +5,7 @@ if(slider) {
   simpleslider.getSlider({
     container: slider,
     duration: 1.5,
-    delay: 7.5,
+    delay: 5,
     prop: 'opacity',
     unit: '',
     init: 0,
