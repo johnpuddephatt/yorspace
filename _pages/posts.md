@@ -3,7 +3,7 @@ layout: page
 permalink: /posts/
 ---
 <div>
-  {% for post in site.posts limit:3 %}
+  {% for post in site.posts %}
     <a href="{% if post.external_link %}{{ post.external_link }}{% else %}{{ post.url }}{% endif %}" class="home-blog--item horizontal" data-aos="fade-up" data-aos-ratio=".25" data-aos-delay="{{ forloop.index | minus: 1 |  times:200 }}">
       <div class="home-blog--item--image">
         {% include cloudinary.html img=post.image.file width="500" height="500" %}

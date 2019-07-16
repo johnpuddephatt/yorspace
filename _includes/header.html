@@ -7,6 +7,9 @@
       {% include /logos/yorspace.svg %}
     </a>
 
+    {% assign default_paths = collections.pages | map: "path" %}
+    {% assign page_paths = site.data.navigation.header_pages | default: '  ' %}
+
     {% if page_paths %}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
